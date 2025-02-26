@@ -1,4 +1,4 @@
-#N canvas 153 44 1800 1097 12;
+#N canvas 0 44 1800 1097 12;
 #X obj 45 97 noise~;
 #X obj 75 208 bob~, f 24;
 #X obj 158 140 line~;
@@ -105,6 +105,7 @@
 #X obj 804 466 tabplay~ breathout 1;
 #X obj 733 386 delay 4000;
 #X obj 479 399 metro 8000;
+#X text 737 742 Kommentar;
 #X connect 0 0 1 0;
 #X connect 1 0 15 0;
 #X connect 2 0 1 1;
